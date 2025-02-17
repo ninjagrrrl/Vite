@@ -22,10 +22,11 @@ let c: number = 20;
 let resultTwo = (a + b) * c;
 console.log(resultTwo);
 
-let resultThree = a++;
-console.log(resultThree);
+a++;
+console.log(a);
 
-console.log(b--);
+b--;
+console.log(b);
 
 let resultFour = a-b;
 console.log(resultFour);
